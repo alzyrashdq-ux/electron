@@ -57,10 +57,6 @@ Menu.prototype._getLabelForCommandId = function (id) {
   return this.commandsMap[id]?.label ?? '';
 };
 
-Menu.prototype._getAccessibilityLabelForCommandId = function (id) {
-  return this.commandsMap[id]?.accessibilityLabel ?? '';
-};
-
 Menu.prototype._getSecondaryLabelForCommandId = function (id) {
   return this.commandsMap[id]?.sublabel ?? '';
 };
