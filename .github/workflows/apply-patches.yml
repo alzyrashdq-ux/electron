@@ -38,6 +38,8 @@ jobs:
           siso-patches:
             - DEPS
             - '.github/siso-patches/**'
+    - name: Echo paths-filter outputs
+      run: echo '${{ toJSON(steps.filter.outputs) }}'
     - name: Set Build Image SHA
       id: build-image-sha
       uses: ./.github/actions/build-image-sha
