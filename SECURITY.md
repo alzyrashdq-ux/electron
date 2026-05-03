@@ -1,4 +1,9 @@
-# Reporting Security Issues
+اللغة العربية 
+
+
+
+
+Reporting Security Issues
 
 The Electron team and community take security bugs in Electron seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
 
